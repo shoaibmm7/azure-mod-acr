@@ -1,0 +1,4 @@
+hashicorp/vault,https://helm.releases.hashicorp.com
+kubereboot/kured,https://kubereboot.github.io/charts
+bitnami/external-dns,https://charts.bitnami.com/bitnami
+jetstack/cert-manager,https://charts.jetstack.io
