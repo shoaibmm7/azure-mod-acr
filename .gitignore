@@ -31,3 +31,5 @@ override.tf.json
 *.tgz
 kured
 vault
+cert-manager
+external-dns
