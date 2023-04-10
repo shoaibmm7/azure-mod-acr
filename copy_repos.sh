@@ -45,7 +45,7 @@ while IFS="," read -r imageName repoURL || [ -n "${imageName}" ]; do
 
   # Pushing helm chart
   echo "Pushing helm chart ${imageName} version ${chartVersion} to ${container}"
-  helm push "${app}"*.tgz oci://${container}.azurecr.io/helm
+  helm push "${app}"*.tgz "oci://${container}.azurecr.io/helm"
 
   # Copying image using Crane
   echo "Copying image ${imageName}:${imageVersion} to ${container} and adding ${chartVersion} tag version to it..."
