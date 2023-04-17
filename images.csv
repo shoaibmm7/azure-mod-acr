@@ -1,4 +1,13 @@
+bitnami/keycloak,https://charts.bitnami.com/bitnami
 hashicorp/vault,https://helm.releases.hashicorp.com
-kubereboot/kured,https://kubereboot.github.io/charts
 bitnami/external-dns,https://charts.bitnami.com/bitnami
+jfrog/artifactory-ha,https://charts.jfrog.io
 jetstack/cert-manager,https://charts.jetstack.io
+jfrog/xray,https://charts.jfrog.io
+hivemq/hivemq-operator,https://hivemq.github.io/helm-charts
+velero/velero,https://vmware-tanzu.github.io/helm-charts
+jenkins/jenkins,https://charts.jenkins.io
+ingress-nginx/ingress-nginx,https://kubernetes.github.io/ingress-nginx
+kubereboot/kured,https://kubereboot.github.io/charts
+linkerd/linkerd2,https://helm.linkerd.io/stable
+aad-pod-identity/aad-pod-identity,https://raw.githubusercontent.com/Azure/aad-pod-identity/master/charts
