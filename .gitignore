@@ -34,3 +34,7 @@ kured
 vault
 cert-manager
 external-dns
+aad-pod-identity
+artifactory-ha
+keycloak
+xray
